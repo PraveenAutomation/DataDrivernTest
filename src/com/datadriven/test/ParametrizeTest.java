@@ -31,10 +31,12 @@ public class ParametrizeTest {
 		
 		int rowCount=reader.getRowCount("RegTestData");
 		
+		reader.addColumn("RegTestData", "status");
+		
 		//Parameterization
 		for(int rowNum=2;rowNum<=rowCount;rowNum++)
 		{
-			System.out.println("======");
+			System.out.println("=========");
 			String firstName=reader.getCellData("RegTestData", "firstname", rowNum);
 			System.out.println(firstName);
 			
@@ -88,6 +90,8 @@ public class ParametrizeTest {
 			
 			driver.findElement(By.cssSelector("#retype_email")).clear();
 			driver.findElement(By.cssSelector("#retype_email")).sendKeys(emailaddress);
+			
+			reader.setCellData("RegTestData", "status", rowNum, "Pass");
 
 		}
 		

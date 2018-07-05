@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo Application Test Automation suite" duration-ms="79864" started-at="2018-06-24T14:17:53Z" finished-at="2018-06-24T14:19:13Z">
+    <groups>
+    </groups>
+    <test name="Yahooo App Test" duration-ms="79864" started-at="2018-06-24T14:17:53Z" finished-at="2018-06-24T14:19:13Z">
+      <class name="com.parameters.ParametersTest">
+        <test-method status="PASS" signature="yahooLogintest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parameters.ParametersTest@1877ab81]" name="yahooLogintest" duration-ms="79799" started-at="2018-06-24T14:17:53Z" finished-at="2018-06-24T14:19:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://login.yahoo.com/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooLogintest -->
+      </class> <!-- com.parameters.ParametersTest -->
+    </test> <!-- Yahooo App Test -->
+  </suite> <!-- Yahoo Application Test Automation suite -->
+</testng-results>
